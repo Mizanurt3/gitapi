@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "start-json-server": "npx json-server db.json"
+    "build": "json-server -p 4000 db.json",
+    "start": "json-server -p 4000 db.json",
+    "lint": "next lint"
 
   },
   "dependencies": {
